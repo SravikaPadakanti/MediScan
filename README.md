@@ -38,4 +38,15 @@ In today's fast-paced world, patients often struggle to access critical informat
 
 <h4>Secure and Scalable Database:</h4>
           &nbsp &nbsp  Data stored and managed efficiently using MySQL.
+<h2>Tools</h2>
+<ul>
+<li><p><b>Python( 3.7 version)</b></p></li>
+<li><p><b>Docker(Container)</b></p></li>
+<li><p><b>Javascript</b></p></li>
+<li><p><b>Express</b></p></li>
+<li><p><b>NodeJS</b></p></li>
+<li><p><b>HTML</b></p></li>
+<li><p><b>CSS</b></p></li>
+</ul>
+
 

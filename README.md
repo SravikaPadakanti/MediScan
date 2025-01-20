@@ -87,23 +87,24 @@ In today's fast-paced world, patients often struggle to access critical informat
 ![Flow of Project](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Flow_of_project.jpeg)
 
 ---
+
 ## QR Codes
 These are the QR codes for various medicines:
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="text-align: center;">
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: nowrap; overflow-x: auto;">
+  <div style="text-align: center; margin-right: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png" width="200" height="200">
     <p>Becosule Capsules QR</p>
   </div>
-  <div style="text-align: center;">
+  <div style="text-align: center; margin-right: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png" width="200" height="200">
     <p>Crocin Pain Relief Tablets QR</p>
   </div>
-  <div style="text-align: center;">
+  <div style="text-align: center; margin-right: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png" width="200" height="200">
     <p>Saridon QR</p>
   </div>
-  <div style="text-align: center;">
+  <div style="text-align: center; margin-right: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png" width="200" height="200">
     <p>DOLO 650 QR</p>
   </div>

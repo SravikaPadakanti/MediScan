@@ -1,3 +1,3 @@
-# <h2>MediScan</h2>
+# <h1>MediScan</h1>
 Accessing information of medicines via QR Code
 

@@ -82,42 +82,56 @@ In today's fast-paced world, patients often struggle to access critical informat
 </ul>
 <h2>Results and Screenshots of the Project</h2>
 
-### Arabic Translation
-![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
 
-### Becosule Capsules with Vitamin C QR
-![Becosule Capsules with Vitamin C QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png)
-
-### Crocin Pain Relief Tablets QR
-![Crocin Pain Relief Tablets QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png)
-
-### Crocin Tablet Display Page
-![Crocin Tablet Display Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
-
-### Dolo650 English Page
-![Dolo650 English Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_English_page.jpeg)
-
-### Dolo650 Translated Page to Azerbaijani
-![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
-
-### Flow of Project
+## Flow of Project
 ![Flow of Project](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Flow_of_project.jpeg)
 
-### HomePage Scan Button
-![HomePage Scan Button](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png)
+---
 
-### Saridon QR
-![Saridon QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png)
+## QR Images
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png" width="200" height="200">
+</div>
 
-### Scanner Image
-![Scanner Image](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png)
+---
 
-### Translated Page Albanian
-![Translated Page Albanian](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg)
+## HomePage and Scanner Image
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png" width="200" height="200">
+</div>
 
-### DOLO 650 QR
-![DOLO 650 QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png)
+---
 
+## Dolo650 English Page
+![Dolo650 English Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_English_page.jpeg)
+
+---
+
+## Crocin Tablet Drop Down Box
+![Crocin Tablet Display Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
+
+---
+
+## Translated Pages
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg" width="200" height="200">
+  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg" width="200" height="200">
+</div>
+
+---
+
+## How It Works
+
+1. **Scan QR Code**: Use the app to scan a QR code on the medicine packaging.
+2. **Display Information**: The app retrieves and displays detailed information about the medicine, including translations.
+3. **Multiple Languages**: Translations are available in multiple languages to assist users globally.
+
+---
 
 
 

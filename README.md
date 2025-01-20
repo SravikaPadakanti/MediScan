@@ -8,7 +8,7 @@ In today's fast-paced world, patients often struggle to access critical informat
    This project aims to solve these challenges by embedding QR codes on each tablet byte in a medicine sheet, providing instant, multilingual access to clear and comprehensive medication information in a website.
 
 <h2>Apllication Areas</h2>
-   &#8226; <h4>Pharmaceutical Packaging:</h4>
+   &#8226 <h4>Pharmaceutical Packaging:</h4>
          &nbsp &nbsp QR codes on packaging provide detailed medicine  information such as ingredients, usage instructions, 
      and warnings.</p>
 

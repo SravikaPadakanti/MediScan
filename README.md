@@ -81,18 +81,19 @@ In today's fast-paced world, patients often struggle to access critical informat
   <li>Provides the information in the preferred language (if selected)</li>
 </ul>
 <h2>Results and Screenshots of the Project</h2>
-![Arabic Translation](MediScan/Arabic_Translation.jpeg)
-![Becosule Capsules with Vitamin C QR](https://raw.githubusercontent.com/username/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png)
-![Crocin Pain Relief Tablets QR](https://raw.githubusercontent.com/username/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png)
-![Crocin Tablet Display Page](https://raw.githubusercontent.com/username/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
-![Dolo650 English Page](https://raw.githubusercontent.com/username/MediScan/main/Dolo650_English_page.jpeg)
-![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/username/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
-![Flow of Project](https://raw.githubusercontent.com/username/MediScan/main/Flow_of_project.jpeg)
-![HomePage Scan Button](https://raw.githubusercontent.com/username/MediScan/main/HomePage_Scan_Button.png)
-![Saridon QR](https://raw.githubusercontent.com/username/MediScan/main/Saridon_QR.png)
-![Scanner Image](https://raw.githubusercontent.com/username/MediScan/main/Scanner_image.png)
-![Translated Page Albanian](https://raw.githubusercontent.com/username/MediScan/main/Translated_Page_Albanian.jpeg)
-![DOLO 650 QR](https://raw.githubusercontent.com/username/MediScan/main/__DOLO_650_QR.png)
+![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
+![Becosule Capsules with Vitamin C QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png)
+![Crocin Pain Relief Tablets QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png)
+![Crocin Tablet Display Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
+![Dolo650 English Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_English_page.jpeg)
+![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
+![Flow of Project](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Flow_of_project.jpeg)
+![HomePage Scan Button](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png)
+![Saridon QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png)
+![Scanner Image](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png)
+![Translated Page Albanian](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg)
+![DOLO 650 QR](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png)
+
 
 
 

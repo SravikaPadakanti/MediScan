@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediScan - Scan Medicine QR Codes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        @keyframes scanLine {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(100%); }
+        }
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+        .pulse-animation {
+            animation: pulse 2s ease-in-out infinite;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #ffffff 100%);
+        }
+        .scale-on-hover {
+            transition: transform 0.3s ease;
+        }
+        .scale-on-hover:hover {
+            transform: scale(1.05);
+        }
+        .qr-frame {
+            position: relative;
+            border: 2px solid #22c55e;
+            border-radius: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .qr-frame::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #22c55e;
+            animation: scanLine 2s linear infinite;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        #qr-reader {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 50px rgba(0,0,0,0.3);
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 999;
+        }
+        #loading-screen {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1001;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 4px solid #22c55e;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="text-white">
+        <div class="spinner mb-4"></div>
+        <p class="text-lg">Opening medicine information...</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-12 text-center relative">
+        <!-- Logo Section -->
+        <div class="mb-8 float-animation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto">
+                <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/>
+                <path d="m8.5 8.5 7 7"/>
+            </svg>
+        </div>
+
+        <!-- Title with Gradient -->
+        <h1 class="text-6xl font-bold mb-6 bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text">
+            MediScan
+        </h1>
+
+        <!-- Description -->
+        <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+            Your smart medicine companion. Scan any medicine QR code for instant access to detailed information, 
+            usage guidelines, and translations in your preferred language.
+        </p>
+
+        <!-- QR Scan Section -->
+        <div class="max-w-md mx-auto mb-16 qr-frame pulse-animation">
+            <!-- Scan Button -->
+            <button onclick="startScanner()" class="bg-green-500 hover:bg-green-600 text-white px-8 py-6 rounded-xl text-xl font-semibold shadow-lg hover:shadow-xl scale-on-hover inline-flex items-center justify-center w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                    <rect width="5" height="5" x="3" y="3" rx="1"/>
+                    <rect width="5" height="5" x="16" y="3" rx="1"/>
+                    <rect width="5" height="5" x="3" y="16" rx="1"/>
+                    <path d="M21 16h-3a2 2 0 0 0-2 2v3"/>
+                    <path d="M21 21v.01"/>
+                    <path d="M12 7v3a2 2 0 0 1-2 2H7"/>
+                    <path d="M3 12h.01"/>
+                    <path d="M12 3h.01"/>
+                    <path d="M12 16v.01"/>
+                    <path d="M16 12h1"/>
+                    <path d="M21 12v.01"/>
+                    <path d="M12 21v-1"/>
+                </svg>
+                Tap to Scan QR Code
+            </button>
+        </div>
+
+        <!-- Features Section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <!-- Feature 1 -->
+            <div class="glass-effect p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 11H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Z"/>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Secure Information</h3>
+                <p class="text-gray-600">Access verified medicine information directly from our secure database.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="glass-effect p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m5 8 6 6"/>
+                        <path d="m4 14 6-6 2-3"/>
+                        <path d="M2 5h12"/>
+                        <path d="M7 2h1"/>
+                        <path d="m22 22-5-10-5 10"/>
+                        <path d="M14 18h6"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Instant Translation</h3>
+                <p class="text-gray-600">Get medicine information in your preferred language instantly.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="glass-effect p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+                        <path d="M8 7h6"/>
+                        <path d="M8 11h8"/>
+                        <path d="M8 15h6"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Detailed Information</h3>
+                <p class="text-gray-600">Access complete details about usage, dosage, and precautions.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- QR Scanner Modal -->
+    <div class="overlay" id="overlay"></div>
+    <div id="qr-reader"></div>
+
+    <script>
+        function isValidUrl(string) {
+            try {
+                new URL(string);
+                return true;
+            } catch (_) {
+                return false;
+            }
+        }
+
+        function showLoadingScreen() {
+            document.getElementById('loading-screen').style.display = 'flex';
+        }
+
+        function hideLoadingScreen() {
+            document.getElementById('loading-screen').style.display = 'none';
+        }
+
+        function handleScannedCode(decodedText) {
+            showLoadingScreen();
+            
+            if (isValidUrl(decodedText)) {
+                // If it's a valid URL, navigate to it
+                window.location.href = decodedText;
+            } else {
+                // If it's not a URL, assume it's an ID and construct the medicine info URL
+                try {
+                    window.location.href = '/medicine/' + encodeURIComponent(decodedText);
+                } catch (error) {
+                    hideLoadingScreen();
+                    alert('Invalid QR code content. Please try scanning again.');
+                }
+            }
+        }
+
+        function startScanner() {
+            const qrReader = document.getElementById('qr-reader');
+            const overlay = document.getElementById('overlay');
+            
+            qrReader.style.display = 'block';
+            overlay.style.display = 'block';
+            
+            const html5QrcodeScanner = new Html5Qrcode("qr-reader");
+            const config = { 
+                fps: 10, 
+                qrbox: { width: 250, height: 250 },
+                aspectRatio: 1.0
+            };
+            
+            html5QrcodeScanner.start(
+                { facingMode: "environment" },
+                config,
+                (decodedText) => {
+                    html5QrcodeScanner.stop().then(() => {
+                        qrReader.style.display = 'none';
+                        overlay.style.display = 'none';
+                        handleScannedCode(decodedText);
+                    }).catch((err) => {
+                        console.error("Failed to stop scanner:", err);
+                        hideLoadingScreen();
+                    });
+                },
+                (errorMessage) => {
+                    // Handle scan error silently
+                    console.log(errorMessage);
+                }
+            ).catch((err) => {
+                console.error("Failed to start scanner:", err);
+                alert("Failed to start camera. Please make sure you've granted camera permissions.");
+                qrReader.style.display = 'none';
+                overlay.style.display = 'none';
+            });
+
+            // Add close button
+            const closeButton = document.createElement('button');
+            closeButton.innerHTML = '✕';
+            closeButton.className = 'absolute top-4 right-4 text-gray-600 hover:text-gray-800 text-xl font-bold';
+            closeButton.onclick = () => {
+                html5QrcodeScanner.stop().then(() => {
+                    qrReader.style.display = 'none';
+                    overlay.style.display = 'none';
+                }).catch((err) => {
+                    console.error("Failed to stop scanner:", err);
+                });
+            };
+            qrReader.appendChild(closeButton);
+        }
+
+        // Handle errors that might occur during navigation
+        window.addEventListener('error', function(e) {
+            hideLoadingScreen();
+            alert('An error occurred while processing the QR code. Please try again.');
+            console.error('Navigation error:', e);
+        });
+    </script>
+</body>
+</html>

@@ -68,7 +68,7 @@ In today's fast-paced world, patients often struggle to access critical informat
 <li><p><b>HTML</b></p></li>
 <li><p><b>CSS</b></p></li>
 </ul>
-<h1>I/O Specifications</h1>
+<h2>I/O Specifications</h2>
 
 <h2>Input Specifications:</h2>
 <ul>

@@ -68,5 +68,18 @@ In today's fast-paced world, patients often struggle to access critical informat
 <li><p><b>HTML</b></p></li>
 <li><p><b>CSS</b></p></li>
 </ul>
+<h1>I/O Specifications</h1>
+
+<h2>Input Specifications:</h2>
+<ul>
+  <li>QR Code Scanning</li>
+  <li>Language Selection</li>
+</ul>
+
+<h2>Output Specifications:</h2>
+<ul>
+  <li>Detailed Medicine Information</li>
+  <li>Provides the information in the preferred language (if selected)</li>
+</ul>
 
 

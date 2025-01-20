@@ -68,11 +68,14 @@ In today's fast-paced world, patients often struggle to access critical informat
 <li><p><b>HTML</b></p></li>
 <li><p><b>CSS</b></p></li>
 </ul>
+---
+
 ## LibreTranslate Resources
 
 - [LibreTranslate Open Source Code (GitHub)](https://github.com/LibreTranslate/LibreTranslate)
 - [LibreTranslate Website (for Paid Services)](https://libretranslate.com)
 
+---
 <h2>Input Specifications:</h2>
 <ul>
   <li>QR Code Scanning</li>

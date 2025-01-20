@@ -150,39 +150,6 @@ These are the QR codes for various medicines:
 
 ---
 
-## HomePage and Scanner Image
-
-### HomePage Scan Button
-![HomePage Scan Button](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png)
-
-### Scanner Image
-![Scanner Image](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png)
-
----
-
-## Dolo650 English Page
-![Dolo650 English Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_English_page.jpeg)
-
----
-
-## Crocin Tablet Drop Down Box
-![Crocin Tablet Display Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
-
----
-
-## Translated Pages
-
-### Dolo650 Translated to Azerbaijani
-![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
-
-### Translated to Albanian
-![Translated Page Albanian](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg)
-
-### Arabic Translation
-![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
-
----
-
 ## How It Works
 
 1. **Scan QR Code**: Use the app to scan a QR code on the medicine packaging.

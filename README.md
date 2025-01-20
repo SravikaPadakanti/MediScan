@@ -91,24 +91,63 @@ In today's fast-paced world, patients often struggle to access critical informat
 ## QR Codes
 These are the QR codes for various medicines:
 
-<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: nowrap; overflow-x: auto;">
-  <div style="text-align: center; margin-right: 10px;">
+<div style="display: flex; justify-content: space-between; flex-wrap: nowrap; overflow-x: auto;">
+
+  <div style="text-align: center; margin: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png" width="200" height="200">
     <p>Becosule Capsules QR</p>
   </div>
-  <div style="text-align: center; margin-right: 10px;">
+  
+  <div style="text-align: center; margin: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png" width="200" height="200">
     <p>Crocin Pain Relief Tablets QR</p>
   </div>
-  <div style="text-align: center; margin-right: 10px;">
+  
+  <div style="text-align: center; margin: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png" width="200" height="200">
     <p>Saridon QR</p>
   </div>
-  <div style="text-align: center; margin-right: 10px;">
+  
+  <div style="text-align: center; margin: 10px;">
     <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png" width="200" height="200">
     <p>DOLO 650 QR</p>
   </div>
+
 </div>
+
+---
+
+## HomePage and Scanner Image
+
+### HomePage Scan Button
+![HomePage Scan Button](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png)
+
+### Scanner Image
+![Scanner Image](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png)
+
+---
+
+## Dolo650 English Page
+![Dolo650 English Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_English_page.jpeg)
+
+---
+
+## Crocin Tablet Drop Down Box
+![Crocin Tablet Display Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
+
+---
+
+## Translated Pages
+
+### Dolo650 Translated to Azerbaijani
+![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
+
+### Translated to Albanian
+![Translated Page Albanian](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg)
+
+### Arabic Translation
+![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
+
 ---
 
 ## HomePage and Scanner Image
@@ -158,6 +197,5 @@ These are the QR codes for various medicines:
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
 ---
 

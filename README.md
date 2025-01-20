@@ -14,7 +14,7 @@ In today's fast-paced world, patients often struggle to access critical informat
 <h4>Patient Empowerment:</h4>
        &nbsp &nbsp Enables patients to understand medication details in their preferred language, reducing the risk of misuse.
 
-<h4>Healthcare Education:</h4>
+* <h4>Healthcare Education:</h4>
        &nbsp &nbsp Assists medical students and professionals by providing detailed insights into tablet compositions, usage, and precautions.
 
 <h4>Pharmacy Support:</h4>
@@ -38,6 +38,15 @@ In today's fast-paced world, patients often struggle to access critical informat
 
 <h4>Secure and Scalable Database:</h4>
           &nbsp &nbsp  Data stored and managed efficiently using MySQL.
+<ul>
+<li><p><b>Python( 3.7 version)</b></p></li>
+<li><p><b>Docker(Container)</b></p></li>
+<li><p><b>Javascript</b></p></li>
+<li><p><b>Express</b></p></li>
+<li><p><b>NodeJS</b></p></li>
+<li><p><b>HTML</b></p></li>
+<li><p><b>CSS</b></p></li>
+</ul>
 <h2>Tools</h2>
 <ul>
 <li><p><b>Python( 3.7 version)</b></p></li>

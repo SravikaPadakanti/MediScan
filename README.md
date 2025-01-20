@@ -22,4 +22,20 @@ In today's fast-paced world, patients often struggle to access critical informat
 
 <h4>Support for Visually Impaired Users:</h4>
        &nbsp &nbsp supports the patients with visual impairents.
+<h2>Key Features of the Project</h2>
+<h4>Custom QR Code for Every Medication:</h4>
+         &nbsp &nbsp  Each tablet strip is linked to a unique QR code for specific information.
+
+<h4>Real-Time Translation of Medication Details:</h4>
+         &nbsp &nbsp Uses Libre Translation API to provide information in the user's preferred language.
+
+<h4>Detailed Medication Information:</h4>
+         &nbsp &nbsp Displays Name of the medicine, Active ingredients, Common uses, Storage instructions ,Manufacturer                                     
+          &nbsp &nbsp details, expiry date, side effects, and warnings for each tablet. 
+
+<h4>User-Friendly Web Interface:</h4>
+          &nbsp &nbsp Simple, intuitive web pages for easy access to medication information.
+
+<h4>Secure and Scalable Database:</h4>
+          &nbsp &nbsp  Data stored and managed efficiently using MySQL.
 

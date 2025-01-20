@@ -81,7 +81,7 @@ In today's fast-paced world, patients often struggle to access critical informat
   <li>Provides the information in the preferred language (if selected)</li>
 </ul>
 <h2>Results and Screenshots of the Project</h2>
-![Arabic Translation](https://raw.githubusercontent.com/username/MediScan/main/Arabic_Translation.jpeg)
+![Arabic Translation](MediScan/Arabic_Translation.jpeg)
 ![Becosule Capsules with Vitamin C QR](https://raw.githubusercontent.com/username/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png)
 ![Crocin Pain Relief Tablets QR](https://raw.githubusercontent.com/username/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png)
 ![Crocin Tablet Display Page](https://raw.githubusercontent.com/username/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)

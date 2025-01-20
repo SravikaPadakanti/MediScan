@@ -55,22 +55,6 @@ In today's fast-paced world, patients often struggle to access critical informat
     <h4>Secure and Scalable Database:</h4>
     Data stored and managed efficiently using MySQL.
   </li>
-  <li>
-    <h4>Mobile-Friendly Design:</h4>
-    Ensures compatibility with smartphones, allowing users to access information on the go.
-  </li>
-  <li>
-    <h4>Fast and Lightweight:</h4>
-    Optimized QR code generation and web pages for quick loading and performance.
-  </li>
-  <li>
-    <h4>Customizable Themes:</h4>
-    Allows pharmacies or manufacturers to personalize the interface with branding.
-  </li>
-  <li>
-    <h4>Accessible Information:</h4>
-    Offers text-to-speech functionality to assist users with visual impairments or reading difficulties.
-  </li>
 </ul>
 
 <h2>Tools</h2>

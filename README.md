@@ -81,6 +81,7 @@ In today's fast-paced world, patients often struggle to access critical informat
   <li>Provides the information in the preferred language (if selected)</li>
 </ul>
 <h2>Results and Screenshots of the Project</h2>
+
 ### Arabic Translation
 ![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
 

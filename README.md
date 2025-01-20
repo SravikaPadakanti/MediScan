@@ -88,21 +88,37 @@ In today's fast-paced world, patients often struggle to access critical informat
 
 ---
 
-## QR Images
+## QR Codes
+These are the QR codes for various medicines:
+
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png" width="200" height="200">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png" width="200" height="200">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png" width="200" height="200">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png" width="200" height="200">
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png" width="200" height="200">
+    <p>Becosule Capsules QR</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png" width="200" height="200">
+    <p>Crocin Pain Relief Tablets QR</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png" width="200" height="200">
+    <p>Saridon QR</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png" width="200" height="200">
+    <p>DOLO 650 QR</p>
+  </div>
 </div>
 
 ---
 
 ## HomePage and Scanner Image
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png" width="200" height="200">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png" width="200" height="200">
-</div>
+
+### HomePage Scan Button
+![HomePage Scan Button](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png)
+
+### Scanner Image
+![Scanner Image](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png)
 
 ---
 
@@ -117,11 +133,15 @@ In today's fast-paced world, patients often struggle to access critical informat
 ---
 
 ## Translated Pages
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg" width="200" height="200">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg" width="200" height="200">
-  <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg" width="200" height="200">
-</div>
+
+### Dolo650 Translated to Azerbaijani
+![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
+
+### Translated to Albanian
+![Translated Page Albanian](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg)
+
+### Arabic Translation
+![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
 
 ---
 

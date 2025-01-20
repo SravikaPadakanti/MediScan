@@ -68,7 +68,7 @@ In today's fast-paced world, patients often struggle to access critical informat
 <li><p><b>HTML</b></p></li>
 <li><p><b>CSS</b></p></li>
 </ul>
----
+
 
 ## LibreTranslate Resources
 

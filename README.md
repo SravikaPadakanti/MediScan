@@ -59,12 +59,12 @@ In today's fast-paced world, patients often struggle to access critical informat
 
 <h2>Tools</h2>
 <ul>
-<li><p><b>Python( 3.7 version)</b></p></li>
 <li><p><b>Docker(Container)</b></p></li>
 <li><p><b>Javascript</b></p></li>
 <li><p><b>Express</b></p></li>
 <li><p><b>NodeJS</b></p></li>
 <li><p><b>LibreTranslate API</b></p></li>
+<li><p><b>Python</b></p></li>
 <li><p><b>HTML</b></p></li>
 <li><p><b>CSS</b></p></li>
 </ul>

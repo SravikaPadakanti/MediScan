@@ -80,5 +80,6 @@ In today's fast-paced world, patients often struggle to access critical informat
   <li>Detailed Medicine Information</li>
   <li>Provides the information in the preferred language (if selected)</li>
 </ul>
+![image](https://github.com/user-attachments/assets/6301b1d5-cd44-47ab-9d8e-ad422dea09c1)
 
 

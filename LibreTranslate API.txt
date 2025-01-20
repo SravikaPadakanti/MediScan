@@ -1,3 +1,0 @@
-# LibreTranslate API 
-Open Source Code for the deployment of Translation
-href{https://github.com/LibreTranslate/LibreTranslate} LibreTranslate API

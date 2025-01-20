@@ -87,7 +87,6 @@ In today's fast-paced world, patients often struggle to access critical informat
 ![Flow of Project](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Flow_of_project.jpeg)
 
 ---
-
 ## QR Codes
 These are the QR codes for various medicines:
 
@@ -109,7 +108,6 @@ These are the QR codes for various medicines:
     <p>DOLO 650 QR</p>
   </div>
 </div>
-
 ---
 
 ## HomePage and Scanner Image

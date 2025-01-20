@@ -153,7 +153,11 @@ These are the QR codes for various medicines:
 ---
 ### Conclusion
 
-<p>“MEDISCAN” enhances medication management by embedding QR codes on each tablet of a medicine sheet. When scanned, these codes provide users with detailed, multilingual information about the medication. This solution addresses challenges like language barriers, complex medical terminology, and medication errors, making it particularly beneficial for elderly patients, non-native speakers, and those with low health literacy. By offering accessible, clear, and real-time information, the project improves patient safety and overall healthcare outcomes</p>
----
+“MEDISCAN” enhances medication management by embedding QR codes on each tablet of a medicine sheet. When scanned, these codes provide users with detailed, multilingual information about the medication. This solution addresses challenges like language barriers, complex medical terminology, and medication errors, making it particularly beneficial for elderly patients, non-native speakers, and those with low health literacy. By offering accessible, clear, and real-time information, the project improves patient safety and overall healthcare outcomes
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+---
 

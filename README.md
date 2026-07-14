@@ -121,7 +121,7 @@ Leveraging the translation pipeline, users can view crucial drug data in their n
 
 | Albanian Translation | Dropdown & Crocin Layout |
 | :---: | :---: |
-| ![Albanian Translation](Testing%20Images/Translation_Results/Translated_Page_Albanian.jpeg) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
+| ![Albanian Translation](Testing%20Images/Translation_Results/Translated_Page_Albanian.jpeg) | ![Crocin Tablet Display](Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
 
 ---
 

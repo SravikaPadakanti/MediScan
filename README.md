@@ -112,12 +112,17 @@ Once scanned, the user is presented with a clear interface detailing usage instr
 
 ---
 
-### 3. Real-Time Multilingual Translation
+## 3. Real-Time Multilingual Translation
+
 Leveraging the translation pipeline, users can view crucial drug data in their native languages instantly.
 
-| Azerbaijani Translation | Dropdown & Crocin Layout |
+| Arabic Translation | Azerbaijani Translation |
 | :---: | :---: |
-| ![Azerbaijani Translation](./Translation%20Results/Dolo650%20Translated%20Page%20to%20Azerbaijani) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
+| ![Arabic Translation](./Translation%20Results/Arabic_Translation.jpeg) | ![Azerbaijani Translation](./Translation%20Results/Dolo650_Translated_Page_to_Azerbaijani.jpeg) |
+
+| Albanian Translation | Dropdown & Crocin Layout |
+| :---: | :---: |
+| ![Albanian Translation](./Translation%20Results/Translated_Page_Albanian.jpeg) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
 
 ---
 

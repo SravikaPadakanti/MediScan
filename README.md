@@ -117,11 +117,12 @@ Leveraging the translation pipeline, users can view crucial drug data in their n
 
 | Arabic Translation | Azerbaijani Translation |
 | :---: | :---: |
-| ![Arabic Translation](./Testing%20Images/Translation%20Results/Arabic_Translation.jpeg) | ![Azerbaijani Translation](./Testing%20Images/Translation%20Results/Dolo650%20Translated%20Page%20to%20Azerbaijani.jpeg) |
+| ![Arabic Translation](./Testing%20Images/Translation%20Results/Arabic_Translation.jpeg) | ![Azerbaijani Translation](./Testing%20Images/Translation%20Results/Dolo650_Translated_Page_to_Azerbaijani.jpeg) |
 
 | Albanian Translation | Dropdown & Crocin Layout |
 | :---: | :---: |
 | ![Albanian Translation](./Testing%20Images/Translation%20Results/Translated_Page_Albanian.jpeg) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
+
 ---
 
 ### 4. Sample Medicine QR Codes

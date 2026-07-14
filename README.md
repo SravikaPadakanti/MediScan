@@ -111,19 +111,17 @@ Once scanned, the user is presented with a clear interface detailing usage instr
 | ![Home Page Scan](./Testing%20Images/Home%20Page%20Scan%20Button.png) | ![Dolo650 English Page](./Testing%20Images/Dolo650%20English%20page.jpeg) |
 
 ---
-
 ## 3. Real-Time Multilingual Translation
 
 Leveraging the translation pipeline, users can view crucial drug data in their native languages instantly.
 
 | Arabic Translation | Azerbaijani Translation |
 | :---: | :---: |
-| ![Arabic Translation](./Translation%20Results/Arabic_Translation.jpeg) | ![Azerbaijani Translation](./Translation%20Results/Dolo650_Translated_Page_to_Azerbaijani.jpeg) |
+| ![Arabic Translation](./Testing%20Images/Translation%20Results/Arabic_Translation.jpeg) | ![Azerbaijani Translation](./Testing%20Images/Translation%20Results/Dolo650%20Translated%20Page%20to%20Azerbaijani.jpeg) |
 
 | Albanian Translation | Dropdown & Crocin Layout |
 | :---: | :---: |
-| ![Albanian Translation](./Translation%20Results/Translated_Page_Albanian.jpeg) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
-
+| ![Albanian Translation](./Testing%20Images/Translation%20Results/Translated_Page_Albanian.jpeg) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
 ---
 
 ### 4. Sample Medicine QR Codes

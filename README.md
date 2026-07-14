@@ -90,72 +90,43 @@ In today's fast-paced world, patients often struggle to access critical informat
 <h2>Results and Screenshots of the Project</h2>
 
 
-## Flow of Project
-![Flow of Project](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Flow_of_project.jpeg)
+## 📸 Results and Screenshots of the Project
+
+Here is a visual overview of **MediScan**, showcasing the workflow from scanning to real-time multilingual translation.
+
+### 1. Project Workflow & Core Components
+The system bridges physical medicine packaging with digital, accessible information.
+
+| System Flowchart | Scanner Interface |
+| :---: | :---: |
+| ![Flow of Project](./Flow_of_project.jpeg) | ![Scanner Image](./Scanner_image.png) |
 
 ---
 
-## QR Codes
-These are the QR codes for various medicines:
+### 2. Medication Dashboards & User Interface
+Once scanned, the user is presented with a clear interface detailing usage instructions, compositions, and language options.
 
-<div style="display: flex; justify-content: space-between; flex-wrap: nowrap; overflow-x: auto;">
-
-  <div style="text-align: center; margin: 10px;">
-    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Becosule_capsules__B_Complex_Forte_With_vitamin_C_Capsules__QR.png" width="200" height="200">
-    <p>Becosule Capsules QR</p>
-  </div>
-  
-  <div style="text-align: center; margin: 10px;">
-    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_Pain_Relief_Tablets_15's._QR.png" width="200" height="200">
-    <p>Crocin Pain Relief Tablets QR</p>
-  </div>
-  
-  <div style="text-align: center; margin: 10px;">
-    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Saridon_QR.png" width="200" height="200">
-    <p>Saridon QR</p>
-  </div>
-  
-  <div style="text-align: center; margin: 10px;">
-    <img src="https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/__DOLO_650_QR.png" width="200" height="200">
-    <p>DOLO 650 QR</p>
-  </div>
-
-</div>
+| Home Page & Scan Actions | English Details & Language Dropdown |
+| :---: | :---: |
+| ![Home Page Scan](./Testing%20Images/Home%20Page%20Scan%20Button.png) | ![Dolo650 English Page](./Testing%20Images/Dolo650%20English%20page.jpeg) |
 
 ---
 
-## HomePage and Scanner Image
+### 3. Real-Time Multilingual Translation
+Leveraging the translation pipeline, users can view crucial drug data in their native languages instantly.
 
-### HomePage Scan Button
-![HomePage Scan Button](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/HomePage_Scan_Button.png)
-
-### Scanner Image
-![Scanner Image](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Scanner_image.png)
-
----
-
-## Dolo650 English Page
-![Dolo650 English Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_English_page.jpeg)
+| Azerbaijani Translation | Dropdown & Crocin Layout |
+| :---: | :---: |
+| ![Azerbaijani Translation](./Translation%20Results/Dolo650%20Translated%20Page%20to%20Azerbaijani) | ![Crocin Tablet Display](./Testing%20Images/Drop%20Down%20Box%20for%20language%20selection%20\(Crocin%20tablet%20Display%20Page\).jpeg) |
 
 ---
 
-## Crocin Tablet Drop Down Box
-![Crocin Tablet Display Page](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Crocin_tablet_Display_Page_Drop_Down_Box_For_Languages.jpeg)
+### 4. Sample Medicine QR Codes
+These custom QR codes can be printed directly onto individual medicine strip segments:
 
----
-
-## Translated Pages
-
-### Dolo650 Translated to Azerbaijani
-![Dolo650 Translated Page to Azerbaijani](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Dolo650_Translated_Page_to_Azerbaijani.jpeg)
-
-### Translated to Albanian
-![Translated Page Albanian](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Translated_Page_Albanian.jpeg)
-
-### Arabic Translation
-![Arabic Translation](https://raw.githubusercontent.com/SravikaPadakanti/MediScan/main/Arabic_Translation.jpeg)
-
----
+| DOLO 650 QR | Saridon QR | Crocin Pain Relief QR |
+| :---: | :---: | :---: |
+| ![DOLO 650](./QR_Codes/__DOLO_650_QR.png) | ![Saridon](./QR_Codes/Saridon_QR.png) | ![Crocin](./QR_Codes/Crocin_Pain_Relief_Tablets_15's._QR.png) |
 
 ## How It Works
 
